@@ -1,0 +1,14 @@
+model\YearGender.class
+com\sc403\sistema\JAXRSConfiguration.class
+controller\ReporteController.class
+model\Usuario.class
+model\Empleado.class
+model\Prospecto.class
+com\sc403\sistema\resources\JavaEE8Resource.class
+controller\UsuarioController.class
+controller\ProspectoController.class
+model\EmpleadoGestion.class
+model\Conexion.class
+controller\EmpleadoController.class
+model\ProspectoGestion.class
+.netbeans_automatic_build

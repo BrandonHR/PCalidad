@@ -1,0 +1,70 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:b="http://bootsfaces.net/ui">
+    <h:head>
+        <title>Facelet Title</title>
+    </h:head>
+    <h:body>
+        <ui:composition template="../resources/templates/plantilla.xhtml">
+            <ui:define name="content">
+                <h:form id="cerficicacionEmpleadoForm">
+                    <b:container fluid="true">
+                        <b:panel title="Empleado" look="primary">
+                            <b:row>
+                                <b:column medium-screen="1">
+                                    <h:outputLabel value="Identificacion"
+                                                   for="identificacion"/>
+                                </b:column>
+                                <b:column medium-screen="2">
+                                    <b:inputText placeholder="Identificacion"
+                                                 id="identificacion"
+                                                 required="true"
+                                                 value="#{empleadoController.id}">
+                                    </b:inputText>
+                                </b:column>
+                                <b:column medium-screen="1" >
+                                    <b:commandButton 
+                                        value="Buscar"
+                                        icon="search"
+                                        look="success"
+                                        onclick="ajax:empleadoController.editas(empleadoController.id)"
+                                        update="@form"/>
+                                </b:column>
+                                <b:column medium-screen="4" style-class="message">
+                                    <b:message for="identificacion"/>
+                                </b:column>
+                            </b:row>
+                            <b:row>
+                                <b:column medium-screen="1">
+                                    <h:outputLabel value="Nombre"
+                                                   for="nombre"/>
+                                </b:column>
+                                <b:column medium-screen="4">
+                                    <h:outputLabel value="#{empleadoController.nombre}"/> 
+                                    <h:outputLabel value="#{empleadoController.apellido1}"/> 
+                                    <h:outputLabel value="#{empleadoController.apellido2}"/>
+                                </b:column>
+                            </b:row>
+                            <b:row>
+                                <b:column medium-screen="1"/>
+                                <b:column medium-screen="4">
+                                    <b:commandButton 
+                                        id="btImprimir"
+                                        value="Imprimir"
+                                        look="primary"                                        
+                                        disabled="#{empleadoController.imprimir}"
+                                        action="#{reporteController.certifica(empleadoController)}"
+                                        icon="print"/>
+                                </b:column>
+                            </b:row>                            
+                        </b:panel>
+                    </b:container>
+                </h:form>
+            </ui:define>
+        </ui:composition>
+    </h:body>
+</html>
+

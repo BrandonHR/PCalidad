@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' ?> 
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:b="http://bootsfaces.net/ui">
+
+    <h:head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+        <h:outputStylesheet library="css" name="default.css"/>
+        <h:outputStylesheet library="css" name="cssLayout.css"/>
+        <title>Sistema 1.0</title>
+    </h:head>
+
+    <h:body>
+        <ui:insert name="top">
+            <b:navBar inverse="true"
+               class="acc"
+               >
+               
+               
+                
+                <b:navbarLinks 
+                               style-class="hidden-xs">
+                    <b:dropMenu value=""
+                                icon-awesome="fa-cog">
+                        <b:navLink value="Cerrar"
+                                   icon-awesome="fa-door-open"
+                                   href="/Sistema/faces/index.xhtml"/>
+                        <b:navLink value="Perfil"
+                                   icon-awesome="fa-user"
+                                   href="#"/>
+                    </b:dropMenu>
+                </b:navbarLinks>
+            </b:navBar>
+        </ui:insert>
+        <ui:insert name="top">
+            <div>
+                <a href="/Sistema/faces/principal.xhtml" >
+                    <b:image library="images"
+                             name="logo.png"
+                             class="logoprincipal"/>
+                </a>
+            </div>
+            
+        </ui:insert>
+        
+        <ui:insert name="top">
+            <b:navBar inverse="true" 
+               class="navbar"
+                fluid="true"
+                      brand="Gestor IMPULSE"
+                      brandHref="/Sistema/faces/principal.xhtml">
+               
+                <b:navbarLinks >
+                    <b:dropMenu 
+                        
+                        value="Trabajador"
+                                icon-awesome="fa-group">
+                        <b:navLink value="Gestion"
+                                   icon-awesome="fa-newspaper-o"
+                                   href="/Sistema/faces/trabajador/list.xhtml"/>
+                        <b:navLink value= "Certificación" 
+                                   iconAwesome= "fa-print"
+                                   href= "/Sistema/faces/reportes/certificacion.xhtml" />
+
+                       
+                    </b:dropMenu>
+                    
+                    <b:dropMenu value="Prospecto"
+                                icon-awesome="fa-group">
+                        <b:navLink value="Ingreso"                                   
+                                   href="/Sistema/faces/prospecto/prospecto.xhtml"/>
+                        <b:navLink value="Reporte" 
+                                   href="/Sistema/faces/prospecto/reporte.xhtml"/>
+                    </b:dropMenu>
+                </b:navbarLinks>
+                
+               
+            </b:navBar>
+        </ui:insert>
+        <div>            
+            <div id="contenidocentral" class="center_content">
+                <ui:insert name="content"></ui:insert>
+            </div>
+        </div>
+    </h:body>
+
+</html>

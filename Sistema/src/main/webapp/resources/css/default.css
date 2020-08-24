@@ -1,0 +1,28 @@
+body {
+background: radial-gradient(circle, rgba(16,105,175,1) 0%, rgba(46,120,177,1) 32%, rgba(60,145,212,1) 50%, rgba(25,96,152,1) 74%, rgba(16,105,175,1) 99%);
+font-family: Verdana, "Verdana CE",  Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    color: #000000;  
+    margin: 10px;
+}
+
+h1 {
+    font-family: Arial, "Arial CE", "Lucida Grande CE", lucida, "Helvetica CE", sans-serif;
+    border-bottom: 1px solid #AFAFAF; 
+    font-size:  16px;
+    font-weight: bold;
+    margin: 0px;
+    padding: 0px;
+    color: #D20005;
+}
+
+a:link, a:visited {
+    color: #045491;
+    font-weight : bold;
+    text-decoration: none;
+}
+
+a:link:hover, a:visited:hover  {
+    color: #045491;
+    font-weight : bold;
+    text-decoration : underline;
+}
