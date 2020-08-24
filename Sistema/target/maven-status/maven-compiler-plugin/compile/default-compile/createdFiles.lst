@@ -11,4 +11,3 @@ model\EmpleadoGestion.class
 model\Conexion.class
 controller\EmpleadoController.class
 model\ProspectoGestion.class
-.netbeans_automatic_build
