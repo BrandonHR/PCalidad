@@ -18,7 +18,7 @@ import java.util.logging.Logger;
  */
 public class Conexion {
     private static Conexion laConexion;
-    private static final String DBURL ="jdbc:derby://localhost:1527/ugeneral;user=root;password=root";
+    private static final String DBURL ="jdbc:derby://localhost:1527/ugeneril;user=root;password=root";
     private static Connection conn = null;
     
     private Conexion() {
