@@ -28,7 +28,7 @@ public class UsuarioControllerTestIT {
       WebElement origenElement = driver.findElement(By.id("input_j_idt9:usuario"));
       origenElement.sendKeys("juan");
       WebElement origenElement2 = driver.findElement(By.id("input_j_idt9:clave"));
-      origenElement2.sendKeys("1234");
+      origenElement2.sendKeys("123");
       WebElement botIngresar = driver.findElement(By.id("j_idt9:j_idt20"));
       botIngresar.click();      
       WebDriverWait wait = new WebDriverWait(driver, 5);
