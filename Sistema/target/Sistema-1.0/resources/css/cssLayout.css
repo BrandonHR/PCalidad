@@ -1,0 +1,238 @@
+
+
+.login{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(90deg, rgba(9,6,64,1) 0%, rgba(9,9,121,1) 47%, rgba(0,212,255,1) 95%);
+    display: flex;
+}
+.botonlogin{
+    width: 130px;
+        margin-left: 160px;
+        background: red !important;
+
+}
+.loginlogo{
+     height: 250px;
+    margin: 150px 0px 0px 0px;
+
+}
+.logo{
+    height: 300px;
+    width: 800px;
+    margin: 55px 0px 0px 0px;
+}
+.linknewacc{
+margin-left: 150px;
+margin-top: 55px;
+}
+
+.etiquetalogin{
+background-color: #12538E;    
+width: 100%;
+    height: 35px;
+     font-family: 'Montserrat', sans-serif;
+     align-content: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+     border-radius: 15px 15px 0px 0px;
+}
+.navbar{
+    margin-left: 275px;
+    margin-right: 275px;
+    box-shadow: 2px 2px 10px #666;
+    right: 0;
+    z-index: 1;
+
+}
+
+.barrabusqueda{
+    margin: 15px 100px 20px 30px;
+}
+
+.botonbuscar{
+    margin: 15px 20px 20px 30px;
+
+
+}
+
+
+.etiquetausuarios{
+    background-color: #12538E;
+    width: 100%;
+    height: 50px;
+    align-content: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+.etiquetatrabajadores{
+    background-color: #12538E;
+    width: 100%;
+    height: 50px;
+    align-content: center;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.acc{
+    box-shadow: 2px 2px 10px #666;
+    position: fixed !important;
+    z-index: 2;
+    margin-right: 0;
+    width:130px;
+    
+
+}
+.logoprincipal{
+     width: 100%;
+     height: 350px;
+     margin: 45px 0px 45px 0px;
+}
+.imagenprincipal{
+     width: 100%;
+     height: 350px;
+}
+.boxtrabajadores{
+ background: transparent; 
+margin-left: 500px;
+margin-right: 100px;
+width: 600px;
+margin-top: 45px;
+}
+
+.boxdatospersonales{
+ background: transparent;
+display: flex;  
+margin-left: 55px;
+margin-top: 45px;
+border:  #036fab;
+width: 90%;
+}
+
+.boxconfirmacion{
+ background: transparent; 
+margin-left: 500px;
+margin-right: 100px;
+width: 600px;
+margin-top: 45px;
+}
+.boxreporte{
+ background: transparent; 
+margin-left: 500px;
+margin-right: 100px;
+width: 600px;
+margin-top: 45px;
+}
+
+.tabla{
+    margin-top: 40px;
+    margin-left: 300px;
+    width: 900px;
+    height: 600px;
+    background: transparent;
+}
+#contenidocentral{
+    
+    margin-left: 45px;
+    margin-right: 45px;
+    background: white;
+    box-shadow: 2px 2px 10px #666;
+}
+.usuario{
+    margin-left: 100px;
+}
+.contra{
+    margin-left: 100px;
+}
+.loginForma{
+    box-shadow: 10px 10px 23px 2px rgba(0, 0, 0, 0.75);
+    margin: 200px 70px 70px 100px;
+    width: 400px;
+    height: 260px;
+    background-color: white;  
+    border-radius: 20px 20px 35px 35px;
+}
+.boxlogin{
+    margin: 70px 40px 40px 140px;
+    width: 300px;
+    height: 260px;
+    background-color: black;
+}
+
+.loginform{
+    margin: 150px 40px 48px 30%;
+    width: 600px;
+    height: 360px;
+    background-color: green;
+    border-radius: 35px 35px 35px 35px;
+}
+
+#top {
+    position: relative;
+    background-color: #036fab;
+    color: white;
+    padding: 5px;
+    margin: 0px 0px 10px 0px;
+}
+
+#bottom {
+    position: relative;
+    background-color: #c2dfef;
+    padding: 5px;
+    margin: 10px 0px 0px 0px;
+}
+
+#left {
+    float: left;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 150px;
+}
+
+#right {
+    float: right;
+    background-color: #ece3a5;
+    padding: 5px;
+    width: 150px;
+}
+
+.center_content {
+    position: relative;
+    background-color: #dddddd;
+    padding: 5px;
+}
+
+.left_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin-left: 170px;
+}
+
+.right_content {
+    background-color: #dddddd;
+    padding: 5px;
+    margin: 0px 170px 0px 170px;
+}
+
+#top a:link, #top a:visited {
+  color: white;
+  font-weight : bold;
+  text-decoration: none;
+}
+
+#top a:link:hover, #top a:visited:hover  {
+  color: black;
+  font-weight : bold;
+  text-decoration : underline;
+}
+
+
